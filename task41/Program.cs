@@ -42,12 +42,12 @@ int[] CreateArrayAnyLengthFromConsole()
 
 int CounterPositiveNumbers(int[] arr)
 {
-int count = 0;
-foreach(var i in arr)
-{
-    if (i > 0) count++;
-}
-return count;
+    int count = 0;
+    foreach (var i in arr)
+    {
+        if (i > 0) count++;
+    }
+    return count;
 }
 
 Console.Clear();
